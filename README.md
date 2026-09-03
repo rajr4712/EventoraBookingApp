@@ -42,7 +42,7 @@ You will also need a MongoDB database (e.g., [MongoDB Atlas Free Tier](https://w
 ### 1. Environment Variables Configuration
 Navigate to `server/.env` and fill in the necessary keys:
 ```env
-MONGO_URI=your_mongodb_connection_string
+MOONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=supersecretjwtkey_eventora
 EMAIL_USER=your_gmail_address
 EMAIL_PASS=your_gmail_app_password

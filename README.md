@@ -3,11 +3,10 @@
 Eventora is a full-stack MERN application that allows users to seamlessly browse, register, and pay natively without any third party tools. It features an administrative dashboard for event organizers to create and manage free and paid events. All bookings can be managed manually by an admin to handle payments directly.
 
 
-user login - user :rajr4712@gmail.com
-            pass: password@12
+### Demo Login
 
-            user:yash234@gmail.com
-            pass:test@123
+For testing purposes, create a new account using the registration page.
+Admin access is available only to users configured with the admin role in the database.
 
 ## Features
 - **User Authentication**: Secure login & registration with JWT and bcrypt.
@@ -47,7 +46,7 @@ You will also need a MongoDB database (e.g., [MongoDB Atlas Free Tier](https://w
 ### 1. Environment Variables Configuration
 Navigate to `server/.env` and fill in the necessary keys:
 ```env
-MONGO_URI=your_mongodb_connection_string
+MOONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=supersecretjwtkey_eventora
 EMAIL_USER=your_gmail_address
 EMAIL_PASS=your_gmail_app_password

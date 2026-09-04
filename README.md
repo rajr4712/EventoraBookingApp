@@ -4,9 +4,9 @@ Eventora is a full-stack MERN application that allows users to seamlessly browse
 
 
 ### Demo Login
-
 For testing purposes, create a new account using the registration page.
 Admin access is available only to users configured with the admin role in the database.
+
 
 ## Features
 - **User Authentication**: Secure login & registration with JWT and bcrypt.
